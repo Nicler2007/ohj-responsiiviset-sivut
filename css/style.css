@@ -24,7 +24,6 @@ body {
 }
 
 /* Header */
-
 header {
     background-color: var(--bg-dark);
     color: var(--teksti-vaalea);
@@ -34,6 +33,29 @@ header {
     width: 100%;
     top: 0;
     border-bottom: var(--highlight) solid 5px;
+}
+
+header .logo {
+    float: left;
+    font-size: 2em;
+}
+
+header nav {
+    float: right;
+
+}
+
+header nav a {
+    display: inline-block;
+    font-size: 1.5em;
+    color: var(--teksti-vaalea);
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+header a a:hover {
+    color: var(--teksti);
+    background-color: var(--highlight);
 }
 
 /*main lohkon tyylit*/
