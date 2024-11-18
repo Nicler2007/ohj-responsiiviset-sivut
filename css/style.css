@@ -23,13 +23,27 @@ body {
     color: var(--teksti);
 }
 
+/* Header */
+
+header {
+    background-color: var(--bg-dark);
+    color: var(--teksti-vaalea);
+    padding: 10px;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: var(--highlight) solid 5px;
+}
+
 /*main lohkon tyylit*/
 main {
     font-size: 1.5em;
     line-height: 1.5em;
+    padding-top: 80px;
 }
 
-
+/* Ingressi */
 .ingressi {
     font-size: 1.2em;
     font-style: italic;
@@ -79,4 +93,13 @@ section {
 .tutkintonimikkeet a:hover{
     color: var(--teksti);
     background-color: var(--highlight);
+}
+
+/* Footer */
+footer {
+    background-color: var(--bg-dark);
+    color: var(--teksti-vaalea);
+    padding: 40px;
+    text-align: center;
+    font-size: 1.2em;
 }
