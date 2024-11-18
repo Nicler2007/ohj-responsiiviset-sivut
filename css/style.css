@@ -6,6 +6,8 @@
     --teksti: #333333;
     --tausta: #eeeeee;
     --teksti-vaalea: #d5d0d0;
+    --bg-dark: #444444;
+    --highlight: #87af19;
 }
 
 * {
@@ -61,3 +63,20 @@ section {
 }
 
 /* Tutkintonimikkeet */
+.tutkintonimikkeet a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--bg-dark);
+    color: var(--teksti-vaalea);
+    border: 1px solid var(--teksti);
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.tutkintonimikkeet a:hover{
+    color: var(--teksti);
+    background-color: var(--highlight);
+}
