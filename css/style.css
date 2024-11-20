@@ -14,10 +14,25 @@
     box-sizing: border-box;
 }
 
+/* Yleiskäyttöisiä tyylejä */
+
+/* Vertikaalinen keskittämistä */
+.v-center {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+/* Horisonttalinen oikea tasaus */
+.h-right {
+    position: absolute;
+    right: 0;
+}
+
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Lato', sans-serif;
     background-color: var(--tausta);
     color: var(--teksti);
