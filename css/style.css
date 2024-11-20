@@ -40,6 +40,13 @@ header .logo {
     font-size: 2em;
 }
 
+header .logo img {
+    height: 70px;
+    padding: 5px;
+    display: block;
+    float: left;
+}
+
 header nav {
     float: right;
 
