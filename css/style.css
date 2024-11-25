@@ -141,6 +141,10 @@ table {
     margin: 1em 0;
 }
 
+.table-container {
+    font-size: 0.6em;
+}
+
 th, td {
     border: 1px solid #ddd;
     padding: 0.9em;
