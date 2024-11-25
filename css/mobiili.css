@@ -7,14 +7,17 @@
     header,
     header > div.logo,
     header > nav,
-    header > nav a {
+    header > nav a 
+    section,
+    main {
         display: block;
         float: none;
         height: auto;
         width: 100%;
         text-align: center;
         clear: both;
-
+        position: relative;
+        padding: 0;
     }
 
     header nav a {
@@ -27,5 +30,8 @@
         position: relative;
         transform: none;
     }
+
+    /* Taulukko */
+    
 
 }
