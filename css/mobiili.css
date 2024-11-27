@@ -1,13 +1,13 @@
 /* Mobiili-tyylit */
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 880px){
     /*
     Asetetaan elementit allekkain 100% leveydelle
     */
     header,
     header > div.logo,
     header > nav,
-    header > nav a, 
+    header nav a, 
     section,
     main {
         display: block;
@@ -18,8 +18,8 @@
         clear: both;
         position: relative;
         padding: 0;
-        
     }
+
 
     header nav {
         text-align: center;
@@ -28,9 +28,18 @@
     header nav a {
         padding: 5px 0;
         display: block;
-
     }
 
+    header nav a:hover {
+        color: var(--teksti);
+        background-color: var(--highlight);
+    }
+
+    .tutkintonimikkeet a:hover{
+        color: var(--teksti);
+        background-color: var(--highlight);
+    }
+    
     .v-center, .h-right {
         display: block;
         position: relative;
@@ -40,18 +49,35 @@
     /* showcase */
     .showcase {
         background-image: url('../img/binary-code-pixellated-screen-18835949.webp');
-        padding-top: 60px;
-        font-size: 1.6em;
+        padding: 10px 0px;
+        font-size: 1.2em;
+        line-height: 1.2em;
         width: 100%;
-        height: 300px;
+        height: 200px;
         color: var(--teksti-vaalea);
         text-align: center;
     }
 
+    /* Ingressi */
+    .ingressi {
+        padding: 0 5px;
+        font-size: 1em;
+        font-style: italic;
+        line-height: 1em;
+    }
+
+    .ingressi::first-letter {
+        float: left;
+        font-size: 3em;
+        line-height: 1em;
+        font-weight: bold;
+        margin-right: 0.1em;
+    }
+
     /* Taulukko */
     th, td {
-        font-size: 0.9em;
-        padding: 0.5em;
+        font-size: 1.0em;
+        padding: 0.1em;
     }
     
 }
